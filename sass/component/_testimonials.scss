@@ -1,0 +1,73 @@
+.testimonials {
+    position: relative;
+}
+
+.wrapper__testimonials {
+   margin-top: 140px;
+   padding-bottom: 180px
+}
+
+.testimonials__title {
+    @extend %text-center;
+    margin-bottom: 47px;
+
+}
+
+.review-border {
+background: linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%),
+linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+height: 391px;
+
+position: relative;
+border-radius: 20px;
+}
+
+.review {
+    background: #F1F3F2;
+    width: 263px;
+    height: 387px;
+    position: absolute;
+    top: 2px;
+    left: 2.015px;
+    border-radius: 20px;
+}
+
+.commentator {
+    margin: 15px 0 10px 16px;
+}
+
+.commentator__info {
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.commentator__adress, 
+.commentator__time {
+    color: #BDBDBD;
+}
+
+.commentator__time::before {
+    content: "";
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #BDBDBD;
+    width: 4px;
+    height: 4px;
+    vertical-align:middle;
+    margin-right: 4px;
+}
+
+.testimonials__text {
+    width: 237px;
+    height: 309px;
+    overflow: hidden;
+    @include font($size:1.5rem, $height:120%, $weight:300);
+    color: #767474;
+    margin: 10px 15px 19px;
+}
+
+.testimonials__flower {
+    position: absolute;
+    bottom: -130px;
+    right: 0;
+}

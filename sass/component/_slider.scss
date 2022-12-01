@@ -1,0 +1,62 @@
+.slider {
+    position: relative;
+}
+
+.block-card {
+    max-width: 1158px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.column-inline {
+    display: inline-flex;
+}
+
+.animal__card {
+    border: 1px solid rgba(250, 111, 50, 1);
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+.animal__photo {
+    max-width: 366px;
+}
+
+.left-flower {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.right-flower {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.first-column {
+    flex-basis: 60%;
+}
+
+.animal__text {
+    display: inline-block;
+    margin: 8px 0 14px 16px;
+}
+
+.animal__adress {
+    @include font($size:1.5rem, $height:120%, $weight:300);
+}
+
+.animal__food {
+    float: right;
+    display: inline-flex;
+    &.food_fish {
+        margin: 8px 8px 14px ;
+    }
+    &.food_banan {
+        margin: 10px 12px 13px ;
+    }
+}
+
+
+

@@ -1,0 +1,74 @@
+
+%text-center {
+    text-align: center;
+}
+
+.feed {
+    background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+    opacity: 0.9;
+    padding: 69px 0 100px;
+}
+
+.wrapper__feed {
+    background: rgba(253, 253, 255, 0.52);
+    backdrop-filter: blur(2px);
+    border-radius: 20px;
+    padding: 41px 0 59px ;
+    
+}
+
+.feed__title {
+    color: rgba(254, 144, 19, 1);
+    @extend %text-center;
+    margin-bottom: 30px;
+    padding-left: 100px;
+}
+
+.feed__subtitle {
+    margin-bottom: 40px;
+    padding-left: 100px;
+}
+
+.feed__covid {
+    @include font($size:1.6rem, $height:130%, $weight:600);
+    margin-bottom: 10px;
+    padding-left: 100px;
+}
+
+.feed__text {
+    padding-left: 100px;
+    max-width: 863px;
+}
+
+.insruction {
+    margin-top: 60px;
+    @extend %text-center
+}
+
+.instruction__title {
+    @extend %text-center;
+    margin-bottom: 40px
+}
+
+.feed__button {
+    @extend %text-center;
+}
+
+.step {
+    display: inline-block;
+    vertical-align: top;
+    height: 244px;
+    margin-bottom: 60px;
+}
+
+.step__text {
+    max-width: 168px;
+    margin-top: 30px;
+    text-align: start;
+}
+
+.instruction__vector {
+    display: inline-block;
+    transform: translateY(calc(106px - 50%));
+    padding: 0 30px;
+}

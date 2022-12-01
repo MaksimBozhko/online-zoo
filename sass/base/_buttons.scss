@@ -1,0 +1,32 @@
+.button {
+    @extend %font;
+    background-color: $color-button;
+    color: $color-link;
+    @include font($size:1.6rem, $height:140%);
+    &_radius {
+        border-radius: 25px;
+        padding: 16px 100px;
+    }
+}
+
+.slider__button {
+    display: inline-block;
+    margin: auto;
+}
+
+.button_left, .button_right {
+    border-radius: 50%;
+}
+
+.button_low {
+    margin: 60px 0 100px;
+    transform: translateX(calc(629px - 50%));
+}
+
+.button_colored {
+    width: 298px;
+    height: 54px;
+    border-radius: 5px;
+    margin-top: 60px;
+}
+

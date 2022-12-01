@@ -1,0 +1,75 @@
+.icon-square {
+    display: inline-flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    .ico_left {
+        background-image: url("../img/slider/Vector.svg");
+        width: 18px;
+        height: 10px;
+    }
+    .ico_right {
+        background-image: url("../img/slider/Vector-right.svg");
+        width: 18px;
+        height: 10px;
+    }
+}
+
+.ico_banan {
+    background-repeat: no-repeat;
+    background-image: url("../img/slider/banan.svg");
+    width: 33px;
+    height: 37px;
+}
+
+.ico_fish {
+    background-repeat: no-repeat;
+    background-image: url("../img/slider/fish.svg");
+    width: 48px;
+    height: 38px;
+}
+
+.icon-square_white {
+    display: inline-flex;
+    width: 168px;
+    height: 168px;
+    background-color: #FFFFFF;
+    align-items: center;
+    justify-content: center;
+        .ico_bank-card {
+        background-repeat: no-repeat;
+        background-image: url("../img/feed/pay.svg");
+        width: 108px;
+        height: 60px;
+    }
+    .ico_pay {
+        background-repeat: no-repeat;
+        background-image: url("../img/feed/zoo.svg");
+        width: 86px;
+        height: 95px;
+    }
+    .ico_dish {
+        background-repeat: no-repeat;
+        background-image: url("../img/feed/monkey.svg");
+        width: 126px;
+        height: 72px;
+    }
+}
+
+.icon-square__none {
+    display: inline-flex;
+    
+}
+
+.ico_pointer {
+    background-repeat: no-repeat;
+    background-image: url("../img/feed/Vector.svg");
+    width: 70px;
+    height: 36px;
+}
+
+
+

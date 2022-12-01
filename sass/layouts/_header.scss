@@ -1,0 +1,23 @@
+.header {
+    background-color: $color-header;
+    color: $color-link;
+}
+
+.header__wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.header__flex {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    margin: 14px 0;
+    flex-grow: 0;
+    flex-basis: 0;
+    margin-right: 34px;
+}
